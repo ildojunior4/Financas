@@ -1,11 +1,6 @@
 package br.com.caelum.financas.jpa;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-	
-
-
 import br.com.caelum.financas.model.Conta;
 import br.com.caelum.financas.util.JPAUtil;
 
