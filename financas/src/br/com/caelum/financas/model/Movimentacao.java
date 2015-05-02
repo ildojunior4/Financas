@@ -28,6 +28,7 @@ public class Movimentacao {
 	private Calendar data;
 
 	private String descricao;
+
 	@ManyToOne
 	private Conta conta;
 
