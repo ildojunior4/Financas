@@ -20,7 +20,8 @@ public class QueryTest {
         Query query = manager
                 .createQuery("select m from Movimentacao m where m.conta.id="
                         + conta.getId());
-        List<Movimentacao> movimentacoes = query.getResultList();
+        @SuppressWarnings("unchecked")
+		List<Movimentacao> movimentacoes = query.getResultList();
 
         for (Movimentacao m : movimentacoes) {
             System.out.println("\nDescricao ..: " + m.getDescricao());

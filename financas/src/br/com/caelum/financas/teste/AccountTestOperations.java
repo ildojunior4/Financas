@@ -4,7 +4,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
 import br.com.caelum.financas.model.Conta;
-import br.com.caelum.financas.model.Movimentacao;
 import br.com.caelum.financas.util.JPAUtil;
 
 public class AccountTestOperations {
